@@ -92,8 +92,8 @@ plt.show()
 sample1 = np.random.normal(0, 1, 100)
 sample2 = np.random.normal(0, 1, 100)
 t_stat, p_value = stats.ttest_ind(sample1, sample2)
-print("Estatística t:", t_stat)
-print("Valor p:", p_value)
+print("13) Estatística t:", t_stat)
+print("13) Valor p:", p_value)
 
 # 14) Apresente os valores de correlação de Pearson e Spearman e um gráfico com linhade regressão ajustada 
 # sobre os pontos de dados.
@@ -103,8 +103,8 @@ y = 2.5 * x + np.random.normal(0, 0.2, 50)
 # A correlação de Pearson avalia a relação linear entre duas variáveis contínuas.
 pearson_corr, _ = stats.pearsonr(x, y)
 spearman_corr, _ = stats.spearmanr(x, y)
-print("Correlação de Pearson:", pearson_corr)
-print("Correlação de Spearman:", spearman_corr)
+print("14)a) Correlação de Pearson:", pearson_corr)
+print("14)b) Correlação de Spearman:", spearman_corr)
 
 # A correlação de Spearman avalia a relação monotônica entre duas variáveis contínuas ou ordinais.
 plt.scatter(x, y, label="Dados")
